@@ -15,12 +15,14 @@ const lightModeOff = (event) => {
 const openMenu = (event) => {
   // открываем меню
   menu.classList.add("is-open");
+  mMenuToggle.classList.add("close-menu");
   document.body.style.overflow = "hidden"; // запрещаем прокрутку сайта под меню
   lightModeOn();
 };
 const closeMenu = (event) => {
   // закрываем меню
   menu.classList.remove("is-open");
+  mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; // разрешаем прокрутку сайта под меню
   lightModeOff();
 };
