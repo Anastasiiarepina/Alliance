@@ -67,6 +67,9 @@ body {
   width: 8.75rem;
   height: 2.75rem;
 }
+.logo {
+  display: none;
+}
 .header-logo {
   padding: 0 3.125rem;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
