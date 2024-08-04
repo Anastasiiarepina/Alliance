@@ -236,6 +236,10 @@ body {
   margin-bottom: 9.375rem;
   overflow: hidden;
 }
+.section-light {
+  margin-top: 8.375rem;
+  margin-bottom: 9.375rem;
+}
 .steps {
   display: flex;
   list-style: none;
@@ -339,7 +343,57 @@ body {
   right: 0;
   z-index: 0;
 }
-
+.mark-cards {
+  display: flex;
+}
+.mark-card {
+  flex-basis: 50%;
+  text-decoration: none;
+  padding: 3.125rem;
+  border: 1px solid #ebebf0;
+  transition: border 0.2s;
+  /* position: relative; */
+}
+.mark-svg {
+  float: left;
+  fill: #828a99;
+  transition: fill 0.2s;
+  /* position: absolute; */
+}
+.mark-card:hover .mark-svg {
+  fill: #5c8ee6;
+}
+.mark-card:hover .mark-title {
+  color: #5c8ee6;
+}
+.mark-card:hover {
+  border-color: #5c8ee6;
+}
+.mark-svg.ag {
+  width: 8.75rem;
+  height: 7.5rem;
+  margin: 1.875rem 4.375rem 1.875rem 1.25rem;
+}
+.mark-svg.alli {
+  width: 6.375rem;
+  height: 8.75rem;
+  margin: 1.25rem 5.625rem 1.25rem 2.5rem;
+}
+.mark-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  line-height: 160%;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  transition: color 0.2s;
+}
+.mark-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  line-height: 160%;
+  display: flex;
+  margin: 0;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -392,6 +446,19 @@ body {
   .card {
     flex-basis: 50%;
   }
+  /* .mark-card {
+    flex-basis: 100%;
+    padding: 1.875rem;
+  }
+  .mark-svg.ag {
+    width: 6.25rem;
+    margin: 1rem 2.625rem 2.25rem 0.75rem;
+  }
+  .mark-svg.alli {
+    width: 6.375rem;
+    height: 8.75rem;
+    margin: 0.75rem 3.25rem 2rem 1.375rem;
+  } */
 }
 @media (max-width: 992px) {
   html {
@@ -520,6 +587,19 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);
   }
+  .mark-card {
+    flex-basis: 100%;
+    padding: 1.875rem;
+  }
+  .mark-svg.ag {
+    /* width: 6.25rem; */
+    margin: 1rem 2.625rem 2.25rem 0.75rem;
+  }
+  .mark-svg.alli {
+    /* width: 6.375rem;
+    height: 8.75rem; */
+    margin: 0.75rem 3.25rem 2rem 1.375rem;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -533,6 +613,20 @@ body {
   }
   .card {
     flex-basis: 100%;
+    min-width: 21.5625rem;
+  }
+  .mark-svg.ag {
+    width: 4.875rem;
+    height: 4.1875rem;
+    margin: 1rem 2.625rem 2.25rem 0.75rem;
+  }
+  .mark-svg.alli {
+    width: 3.5625rem;
+    height: 4.875rem;
+    margin: 0.75rem 3.25rem 2rem 1.375rem;
+  }
+  .mark-cards {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 576px) {
@@ -544,5 +638,10 @@ body {
   }
   .header-content {
     padding-top: 2rem;
+  }
+}
+@media (max-width: 440px) {
+  .mark-text {
+    display: inline-block;
   }
 }
