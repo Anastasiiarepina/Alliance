@@ -79,6 +79,8 @@ body {
 }
 .header-nav {
   display: flex;
+  align-items: center;
+  height: 100%;
   list-style: none;
   flex-basis: 100%;
   padding: 0;
@@ -88,11 +90,34 @@ body {
 .header-nav-link {
   text-decoration: none;
   font-size: 1rem;
-  letter-spacing: 0.18px;
+  letter-spacing: 0.1792px;
   color: inherit;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.header-nav-link:after {
+  content: "";
+  width: 0px;
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  background-color: #5c8ee6;
+  transition: width 0.2s;
+  right: 0;
+}
+.header-nav-link:hover::after {
+  width: 100%;
+  left: 0;
 }
 .header-nav-item:not(:last-child) {
   margin-right: 4%;
+}
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .header-phone {
   flex-shrink: 0;
@@ -149,7 +174,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   margin-bottom: 3.1875rem;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1504px;
 }
 .header-button {
   padding: 1.5625rem 3.8125rem;
@@ -195,7 +220,7 @@ body {
   line-height: 160%;
   margin-bottom: 0;
   margin-top: 1.0625rem;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1504px;
   height: 100%;
 }
 
@@ -268,7 +293,53 @@ body {
   height: 1px;
   width: 2.5rem;
   margin-right: 1.25rem;
+  transition: width 0.2s;
 }
+.steps-link:hover::before {
+  width: 3.75rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
+}
+.card:hover .card-title {
+  color: #5c8ee6;
+}
+.card:hover {
+  border-color: #5c8ee6;
+}
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+.card-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  transition: color 0.2s;
+}
+.card-text {
+  color: rgb(130, 138, 153);
+  font-size: 0.9375rem;
+  line-height: 160%;
+  margin-bottom: 26.625rem;
+}
+.card-image {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -317,6 +388,9 @@ body {
     width: 100px;
     margin-left: auto;
     background-color: #5c8ee6;
+  }
+  .card {
+    flex-basis: 50%;
   }
 }
 @media (max-width: 992px) {
@@ -456,6 +530,9 @@ body {
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .card {
+    flex-basis: 100%;
   }
 }
 @media (max-width: 576px) {
