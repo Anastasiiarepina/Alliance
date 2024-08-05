@@ -651,17 +651,19 @@ body {
   }
 
   .mark-svg.ag {
-    width: 4.8125rem;
-    height: 4.125rem;
+    width: 77px;
+    height: 67px;
     /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
   }
+
   .mark-svg.alli {
-    width: 3.5625rem;
-    height: 4.875rem;
+    width: 57px;
+    height: 78px;
     /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
   }
   .mark-cards {
     flex-direction: column;
+    margin-top: 3.1rem;
     /* flex-wrap: wrap; */
   }
   .mark-card {
@@ -729,6 +731,9 @@ body {
   .cards {
     margin-top: 2.8rem;
   }
+  .card {
+    height: 429px;
+  }
   .card-content {
     padding: 1.5rem 2.5rem;
   }
@@ -738,12 +743,30 @@ body {
     margin-bottom: 24rem;
   }
   .marks {
-    margin-top: 6rem;
+    margin-top: 8.3rem;
   }
   .production {
     margin-bottom: 4.375rem;
   }
   .section {
     margin-bottom: 0;
+  }
+  .mark-card {
+    padding: 2.4rem;
+    grid-row-gap: 3.5rem;
+    /* grid-column-gap: 4.5rem; */
+    grid-template-columns: 92px 1fr 1fr;
+  }
+  .mark-text {
+    font-size: 1.12rem;
+  }
+  .mark-svg.ag {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .mark-svg.alli {
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
   }
 }
