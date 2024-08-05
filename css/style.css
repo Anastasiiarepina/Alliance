@@ -366,6 +366,13 @@ body {
   margin-top: 3.375rem;
 }
 .mark-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
+  grid-column-gap: 3.125rem;
   flex-basis: 50%;
   text-decoration: none;
   padding: 3.125rem;
@@ -374,7 +381,8 @@ body {
   /* position: relative; */
 }
 .mark-svg {
-  float: left;
+  grid-area: logo;
+  /* float: left; */
   fill: #828a99;
   transition: fill 0.2s;
   /* position: absolute; */
@@ -391,23 +399,25 @@ body {
 .mark-svg.ag {
   width: 8.75rem;
   height: 7.5rem;
-  margin: 1.875rem 4.375rem 1.875rem 1.25rem;
+  /* margin: 1.875rem 4.375rem 1.875rem 1.25rem; */
 }
 .mark-svg.alli {
   width: 6.375rem;
   height: 8.75rem;
-  margin: 1.25rem 5.625rem 1.25rem 2.5rem;
+  /* margin: 1.25rem 5.625rem 1.25rem 2.5rem; */
 }
 .mark-title {
+  grid-area: title;
   color: rgb(41, 45, 51);
   font-size: 1.75rem;
-  line-height: 160%;
+  line-height: 130%;
   margin-top: 0;
   margin-bottom: 0.625rem;
   transition: color 0.2s;
   font-weight: 400;
 }
 .mark-text {
+  grid-area: text;
   color: rgb(130, 138, 153);
   font-size: 1rem;
   line-height: 160%;
@@ -612,17 +622,17 @@ body {
     transform: rotate(-45deg) translateY(-10px);
   }
   .mark-card {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     padding: 1.875rem;
   }
   .mark-svg.ag {
     /* width: 6.25rem; */
-    margin: 1rem 2.625rem 2.25rem 0.75rem;
+    /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
   }
   .mark-svg.alli {
     /* width: 6.375rem;
     height: 8.75rem; */
-    margin: 0.75rem 3.25rem 2rem 1.375rem;
+    /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
   }
 }
 @media (max-width: 768px) {
@@ -639,18 +649,28 @@ body {
     flex-basis: 100%;
     min-width: 21.5625rem;
   }
+
   .mark-svg.ag {
-    width: 4.875rem;
-    height: 4.1875rem;
-    margin: 1rem 2.625rem 2.25rem 0.75rem;
+    width: 4.8125rem;
+    height: 4.125rem;
+    /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
   }
   .mark-svg.alli {
     width: 3.5625rem;
     height: 4.875rem;
-    margin: 0.75rem 3.25rem 2rem 1.375rem;
+    /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
   }
   .mark-cards {
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .mark-card {
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto 2fr;
+    grid-template-areas:
+      "logo title title"
+      "text text  text ";
+    grid-row-gap: 2.25rem;
   }
 }
 @media (max-width: 576px) {
@@ -660,7 +680,7 @@ body {
 }
 @media (max-width: 440px) {
   .mark-text {
-    display: inline-block;
+    /* display: inline-block; */
   }
   .header-text {
     font-size: 1.14rem;
