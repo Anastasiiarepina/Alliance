@@ -92,11 +92,17 @@ const SwiperSteps = new Swiper(".steps-swiper", {
 
 const BlogSteps = new Swiper(".blog-swiper", {
   speed: 400,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   autoHeight: true,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
   },
 });

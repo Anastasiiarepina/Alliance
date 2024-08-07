@@ -473,6 +473,9 @@ body {
 .founder-link-small {
   display: none;
 }
+.clients {
+  margin-bottom: 9.45rem;
+}
 .clients-wrapper {
   display: flex;
   gap: 1.125rem;
@@ -520,6 +523,9 @@ body {
 .clients-logo-item:hover .clients-logo {
   filter: saturate(1);
 }
+.blog-swiper {
+  margin-top: 3.35rem;
+}
 .blog-card {
   position: relative;
   display: flex;
@@ -556,6 +562,7 @@ body {
   line-height: 160%;
   margin-top: 0;
   margin-bottom: 0.625rem;
+  letter-spacing: 0.15px;
 }
 .blog-card-text {
   color: rgb(255, 255, 255);
@@ -563,6 +570,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   margin: 0;
+  letter-spacing: 0.15px;
 }
 .blog-slider-footer {
   display: flex;
@@ -788,6 +796,14 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
+
+  .blog-card-title {
+    /* font-size: 1.25rem; */
+    line-height: 120%;
+  }
+  .blog-card-text {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -847,6 +863,9 @@ body {
   .clients-logo-item {
     flex-basis: 50%;
   }
+  .clients-logo-item:last-child {
+    display: none;
+  }
   .primary-buttons-wrapper {
     width: 120px;
     height: 40px;
@@ -875,6 +894,10 @@ body {
   }
   .header-features-item {
     padding: 1.875rem 2.063rem;
+  }
+  .logo-svg {
+    width: 9.75rem;
+    height: 3.75rem;
   }
   .section-light {
     margin-top: 8.275rem;
@@ -976,6 +999,9 @@ body {
     font-size: 1.18rem;
     margin-bottom: 15px;
   }
+  .clients {
+    margin-bottom: 8.5rem;
+  }
   .clients-logo-list {
     margin-top: -2rem;
   }
@@ -985,5 +1011,18 @@ body {
   .clients-logo {
     width: 50px;
     height: 50px;
+  }
+  .blog-swiper {
+    margin-top: 3.2rem;
+  }
+  .blog-card {
+    min-height: 16.2rem;
+    padding: 0.9rem 1.7rem;
+  }
+  .blog-card-title {
+    letter-spacing: -0.3px;
+  }
+  .blog-slider-footer {
+    margin-top: 1.8rem;
   }
 }
