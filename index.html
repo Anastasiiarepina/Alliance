@@ -114,7 +114,7 @@
           <a href="#" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</span></a>
+          <a href="#" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
@@ -219,7 +219,7 @@
         <div class="separator"></div>
         <h2 class="section-title">схема работы</h2>
 
-        <div class="swiper swiper-2">
+        <div class="swiper steps-swiper">
           <!-- Additional required wrapper -->
 
           <ol class="swiper-wrapper steps">
@@ -259,13 +259,13 @@
           </ol>
 
           <!-- Navigation buttons -->
-          <div class="slider-buttons-2">
-            <div class="second-slider-button-prev">
+          <div class="steps-buttons primary-buttons-wrapper">
+            <div class="steps-button-prev primary-button-prev">
               <svg width="36" height="24">
                 <use href="img/sprite.svg#arrow-prev-2"></use>
               </svg>
             </div>
-            <div class="second-slider-button-next">
+            <div class="steps-button-next primary-button-next">
               <svg width="36" height="24">
                 <use href="img/sprite.svg#arrow-next-2"></use>
               </svg>
@@ -371,7 +371,9 @@
     <section class="section marks">
       <div class="container">
         <div class="separator"></div>
-        <h2 class="section-title">собственные <span class="section-title-toggle">торговые</span> марки</h2>
+        <h2 class="section-title">
+          собственные <span class="section-title-toggle">торговые</span> марки
+        </h2>
         <div class="mark-cards">
           <a href="" class="mark-card">
             <svg class="mark-svg ag">
@@ -422,7 +424,10 @@
               выбранный нами инновационный путь в значительной степени
               обусловливает важность дальнейших направлений развития.
             </p>
-            <a href="#" class="button-link"><span class="founder-link-big">Подробнее о компании</span><span class="founder-link-small">О нашей миссии</span></a>
+            <a href="#" class="button-link"
+              ><span class="founder-link-big">Подробнее о компании</span
+              ><span class="founder-link-small">О нашей миссии</span></a
+            >
           </div>
         </div>
       </div>
@@ -533,6 +538,82 @@
       </div>
     </section>
     <!-- /.section clients -->
+    <section class="section blog">
+      <div class="container">
+        <div class="separator"></div>
+        <h2 class="section-title">блог экспертов в области производства</h2>
+        <!-- Slider main container -->
+        <div class="swiper blog-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-image1.png"
+                alt="Blog-image1"
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Современная методология разработки одухотворила всех причастных
+              </h3>
+              <p class="blog-card-text">
+                Действия представителей оппозиции, превозмогая сложившуюся
+                непростую экономическую ситуацию, в равной степени
+                предоставлены...
+              </p>
+            </a>
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-image2.png"
+                alt="Blog-image2"
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Сложно сказать, почему жизнь прекрасна
+              </h3>
+              <p class="blog-card-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-image3.png"
+                alt="Blog-image3"
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Современная методология разработки одухотворила всех причастных
+              </h3>
+              <p class="blog-card-text">
+                Действия представителей оппозиции, превозмогая сложившуюся
+                непростую экономическую ситуацию, в равной степени
+                предоставлены...
+              </p>
+            </a>
+          </div>
+          <div class="blog-slider-footer">
+            <a href="#" class="button-link">Весь блог</a>
+            <div class="blog-buttons primary-buttons-wrapper">
+              <div class="blog-button-prev primary-button-prev">
+                <svg width="36" height="24">
+                  <use href="img/sprite.svg#arrow-prev-2"></use>
+                </svg>
+              </div>
+              <div class="blog-button-next primary-button-next">
+                <svg width="36" height="24">
+                  <use href="img/sprite.svg#arrow-next-2"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- /.blog-slider-footer -->
+        </div>
+      </div>
+    </section>
+    <!-- /.section blog -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

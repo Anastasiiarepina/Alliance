@@ -66,13 +66,13 @@ const swiper1 = new Swiper(".swiper-1", {
   },
 });
 
-const Swiper2 = new Swiper(".swiper-2", {
+const SwiperSteps = new Swiper(".steps-swiper", {
   speed: 400,
   slidesPerView: 1,
   autoHeight: true,
   navigation: {
-    nextEl: ".second-slider-button-next",
-    prevEl: ".second-slider-button-prev",
+    nextEl: ".steps-button-next",
+    prevEl: ".steps-button-prev",
   },
   breakpoints: {
     // when window width is >= 768px
@@ -87,5 +87,16 @@ const Swiper2 = new Swiper(".swiper-2", {
     1200: {
       slidesPerView: 4,
     },
+  },
+});
+
+const BlogSteps = new Swiper(".blog-swiper", {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  autoHeight: true,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
   },
 });
