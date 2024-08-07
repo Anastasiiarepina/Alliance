@@ -508,7 +508,7 @@ body {
   filter: saturate(0);
   transition: filter 0.2s;
 }
-.clients-logo:hover {
+.clients-logo-item:hover .clients-logo {
   filter: saturate(1);
 }
 
