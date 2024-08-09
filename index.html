@@ -615,9 +615,9 @@
     </section>
     <!-- /.section blog -->
     <section class="cta">
-      <div class="bg-grey">
+      <div class="bg-grey section-cta">
         <img src="img/cta.png" alt="call to action" class="cta-image" />
-        <div class="cta-form-wrapper">
+        <div class="cta-form-wrapper container">
           <form action="" class="cta-form">
             <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
             <p class="cta-form-text">
@@ -633,15 +633,19 @@
                   id="user-name"
                   placeholder=""
                 />
-                <label for="user-name">Имя</label>
+                <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input type="tel" class="input" id="user-name" />
-                <label for="user-phone">Номер телефона</label>
+                <input type="tel" class="input" id="user-name" placeholder="" />
+                <label class="input-group-label" for="user-phone"
+                  >Номер телефона</label
+                >
               </div>
             </div>
             <div class="cta-form-footer">
-              <button type="submit" class="button">Отправить заявку</button>
+              <button type="submit" class="button cta-form-button">
+                Отправить заявку
+              </button>
               <div class="notify">
                 <svg width="14" height="14" class="notify-icon">
                   <use href="img/sprite.svg#shield"></use>
