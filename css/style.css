@@ -776,6 +776,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   line-height: 160%;
   margin-bottom: 1.875rem;
 }
+.footer-menu-item:hover > :not(.footer-menu-link-bold) {
+  color: #5c8ee6;
+}
 .footer-menu-wrapper:last-child {
   margin-left: 10.6rem;
 }
