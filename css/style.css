@@ -34,9 +34,20 @@ body {
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   transition: background-color 0.2s, height 0.2s;
 }
+.logo-dark {
+  display: none;
+}
 .navbar-light {
   color: #292d33;
   background: #fafbfc;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.625rem;
 }
 .navbar-light .header-logo-path {
@@ -67,7 +78,7 @@ body {
   width: 8.75rem;
   height: 2.75rem;
 }
-.logo {
+.logo-dark {
   display: none;
 }
 .header-logo {
@@ -879,6 +890,41 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   width: 100%;
   display: block;
   padding: 1.25rem 3.125rem;
+}
+.second-header {
+  margin-top: 5.875rem;
+}
+.second-header-wrapper {
+  background-color: #f0f2f5;
+}
+.second-header-content {
+  padding: 3.125rem 0;
+  position: relative;
+}
+.second-header-image {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 90%;
+}
+.second-separator {
+  margin-bottom: 1.875rem;
+}
+.header-crumbs-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.header-crumbs-link {
+  text-decoration: none;
+  color: rgb(130, 138, 153);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.header-crumbs-link-active {
+  color: #292d33;
 }
 @media (max-width: 1700px) {
   html {
