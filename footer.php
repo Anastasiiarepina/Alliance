@@ -1,178 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>О компании - Alliance production</title>
-  </head>
-  <body>
-    <div class="mobile-menu">
-      <ul class="mobile-menu-nav">
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">О компании</a>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контрактное производство</a>
-          <ul class="mobile-submenu">
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Дезинфицирующие средства</a
-              >
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Косметическая продукция</a
-              >
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
-            </li>
-          </ul>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные марки</a>
-          <ul class="mobile-submenu">
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AP</a>
-            </li>
-          </ul>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Новости</a>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контакты</a>
-        </li>
-      </ul>
-      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
-      <div class="mobile-info">
-        <svg class="button-icon" width="12" height="16">
-          <use href="img/sprite.svg#address"></use>
-        </svg>
-        <address class="mobile-info-address">
-          г. Москва, Холодильный пер. 4к1с8
-        </address>
-      </div>
-      <div class="mobile-info">
-        <svg class="button-icon" width="16" height="12">
-          <use href="img/sprite.svg#mail"></use>
-        </svg>
-        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-mail">
-          a.dragunov@tdaliance.ru
-        </a>
-      </div>
-      <div class="contacts-info">
-        <svg class="button-vk" width="24" height="24">
-          <use href="img/sprite.svg#vk"></use>
-        </svg>
-        <svg class="button-insta" width="24" height="24">
-          <use href="img/sprite.svg#insta"></use>
-        </svg>
-      </div>
-    </div>
-    <nav class="navbar navbar-light">
-      <a href="#" class="mobile-menu-toggle">
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-      </a>
-      <a href="./" class="header-logo">
-        <svg class="logo-svg logo-light">
-          <use href="img/sprite.svg#logo-light"></use>
-        </svg>
-        <svg class="logo-svg logo-dark">
-          <use href="img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="header-nav">
-        <li class="header-nav-item">
-          <a href="/about.html" class="header-nav-link">О компании</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
-        </li>
-      </ul>
-      <div class="header-phone">
-        <svg class="phone-icon" width="16" height="16">
-          <use href="img/sprite.svg#header-phone"></use>
-        </svg>
-        <a href="tel:+74996861014" class="header-phone-link"
-          >+7 (499) 686-10-14
-        </a>
-      </div>
-      <button class="navbar-button button" data-toggle="modal">
-        <svg class="button-icon" width="16" height="16">
-          <use href="img/sprite.svg#header-phone"></use>
-        </svg>
-        <span class="button-text">Получить консультацию</span>
-      </button>
-    </nav>
-    <!-- /.navbar -->
-    <header class="second-header second-header-bg-off">
-      <!-- bg-off отключает фон, bg-on включает -->
-      <div class="second-header-wrapper">
-        <div class="container">
-          <div class="second-header-content">
-            <div class="separator second-separator"></div>
-            <h1 class="header-title">о компании</h1>
-            <div class="header-crumbs-wrapper">
-              <a href="/index.html" class="header-crumbs-link">Главная</a>
-              <span class="header-crumbs-separator">—</span>
-              <a
-                href="/about.html"
-                class="header-crumbs-link header-crumbs-link-active"
-                >О компании</a
-              >
-            </div>
-            <img
-              class="second-header-image"
-              src="img/second-header-image.jpeg"
-              alt="Auto-him"
-            />
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="cta">
+<section class="cta">
       <div class="bg-grey section-cta">
         <img src="img/cta.png" alt="call to action" class="cta-image" />
         <div class="cta-form-wrapper container">
-          <form action="" class="cta-form">
+          <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
             <p class="cta-form-text">
-              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+               заявку, наш менеджер свяжется с Вами в ближайшее время
               ответит на все интересующие вопросы и поможем даже в самых сложных
               случаях!
             </p>
@@ -182,12 +15,18 @@
                   type="text"
                   class="input"
                   id="user-name"
+                  name="username"
                   placeholder=""
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input type="tel" class="input" id="user-name" placeholder="" />
+                <input 
+                type="tel" 
+                class="input" 
+                id="user-phone"
+                name="userphone"
+                placeholder="" />
                 <label class="input-group-label" for="user-phone"
                   >Номер телефона</label
                 >
@@ -221,7 +60,7 @@
             </svg>
           </a>
 
-          <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
+          <a href="tel:+74996861014" class="footer-phone">+7 (999) 686-10-14</a>
           <div class="footer-info">
             <svg class="address-icon" width="12" height="16">
               <use href="img/sprite.svg#address"></use>
@@ -319,7 +158,7 @@
         <div class="footer-wrapper">
           <div class="footer-legal">
             <p class="copyright">
-              &copy; 2022 «Aliance Production». Все права защищены.
+              &copy; <?php echo date('Y');?> «Aliance Production». Все права защищены.
             </p>
             <a href="#" class="footer-policy">Политики конфиденциальности</a>
           </div>
@@ -347,13 +186,14 @@
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <form action="" class="modal-form">
+        <form action="handler.php" method="POST" class="modal-form">
           <div class="input-group-wrapper input-group-vertical">
             <div class="input-group modal-input-group">
               <input
                 type="text"
                 class="input modal-input"
                 id="modal-user-name"
+                name="username"
                 placeholder=""
               />
               <label class="input-group-label" for="modal-user-name">Имя</label>
@@ -363,6 +203,7 @@
                 type="tel"
                 class="input modal-input"
                 id="modal-user-phone"
+                name="userphone"
                 placeholder=""
               />
               <label class="input-group-label" for="modal-user-phone"
