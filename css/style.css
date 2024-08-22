@@ -639,6 +639,7 @@ body {
   position: relative;
   flex-grow: 1;
   height: 4.125rem;
+  background-color: #f0f2f5;
 }
 .input {
   position: absolute;
@@ -665,6 +666,7 @@ body {
   border: 1px solid rgb(92, 142, 230);
   outline: none;
 }
+
 .input:focus ~ .input-group-label,
 input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   top: -0.5rem;
@@ -672,6 +674,20 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-size: 0.625rem;
   background-color: inherit;
   padding: 0 10px;
+}
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  background-color: inherit;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  display: inline-block;
 }
 .cta-form-footer {
   gap: 1.875rem;
@@ -1164,15 +1180,15 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     /* flex-basis: 100%; */
     padding: 1.875rem;
   }
-  .mark-svg.ag {
-    /* width: 6.25rem; */
-    /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
-  }
-  .mark-svg.alli {
-    /* width: 6.375rem;
+  /* .mark-svg.ag { */
+  /* width: 6.25rem; */
+  /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
+  /* } */
+  /* .mark-svg.alli { */
+  /* width: 6.375rem;
     height: 8.75rem; */
-    /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
-  }
+  /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
+  /* } */
   .clients-wrapper {
     flex-direction: column;
   }
@@ -1324,9 +1340,6 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
 }
 @media (max-width: 440px) {
-  .mark-text {
-    /* display: inline-block; */
-  }
   .header-text {
     font-size: 1.14rem;
     margin-bottom: 2.5rem;

@@ -2,10 +2,10 @@
       <div class="bg-grey section-cta">
         <img src="img/cta.png" alt="call to action" class="cta-image" />
         <div class="cta-form-wrapper container">
-          <form action="handler.php" method="POST" class="cta-form">
+          <form action="handler.php" method="POST" class="form cta-form">
             <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
             <p class="cta-form-text">
-               заявку, наш менеджер свяжется с Вами в ближайшее время
+              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
               ответит на все интересующие вопросы и поможем даже в самых сложных
               случаях!
             </p>
@@ -19,7 +19,6 @@
                   placeholder=""
                   maxLength="100"
                   required
-
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -191,7 +190,7 @@
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <form action="handler.php" method="POST" class="modal-form">
+        <form action="handler.php" method="POST" class="form modal-form">
           <div class="input-group-wrapper input-group-vertical">
             <div class="input-group modal-input-group">
               <input
@@ -239,6 +238,7 @@
     </div>
 
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
