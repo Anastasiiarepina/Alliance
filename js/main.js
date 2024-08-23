@@ -153,11 +153,6 @@ forms.forEach((form) => {
         rule: "required",
         errorMessage: "Введите телефон",
       },
-      {
-        rule: "maxLength",
-        value: 15,
-        errorMessage: "Максимально 15 символов",
-      },
     ])
     .onSuccess((event) => {
       const thisForm = event.target;
@@ -178,3 +173,10 @@ forms.forEach((form) => {
       ajaxSend(formData);
     });
 });
+
+const element = document.getElementById("user-phone");
+const maskOptions = {
+  mask: "+7(000)000-00-00",
+  lazy: false,
+};
+const mask = new IMask(element, maskOptions);
