@@ -237,7 +237,7 @@
       </div>
     </div>
 
-    <div class="thanks is-open">
+    <div class="thanks">
       <div class="thanks-dialog" id="thanks-dialog">
         <img src="img/thanks.png" alt="Thanks" class="thanks-image">
         <h2 class="thanks-title">cпасибо за заявку!</h2>
