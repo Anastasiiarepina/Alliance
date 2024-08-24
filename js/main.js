@@ -131,6 +131,28 @@ document.addEventListener("keyup", (event) => {
   }
 });
 
+const thanks = document.querySelector(".thanks");
+const thanksDialog = document.querySelector(".thanks-dialog");
+const thanksClose = document.querySelector(".thanks-close");
+
+thanks.addEventListener("click", (event) => {
+  console.log(event.target);
+  if (
+    event.target.closest(".thanks-close") ||
+    event.target.closest(".thanks-button") ||
+    (!event.composedPath().includes(thanksDialog) &&
+      thanks.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    thanks.classList.remove("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && thanks.classList.contains("is-open")) {
+    thanks.classList.toggle("is-open");
+  }
+});
+
 const forms = document.querySelectorAll("form");
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
@@ -164,9 +186,9 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Форма отправлена!");
+            thanks.classList.add("is-open");
           } else {
-            alert(response.statusText);
+            alert("Error!");
           }
         });
       };
@@ -175,8 +197,10 @@ forms.forEach((form) => {
 });
 
 const element = document.getElementById("user-phone");
+const modalElement = document.getElementById("modal-user-phone");
 const maskOptions = {
   mask: "+7(000)000-00-00",
   lazy: false,
 };
 const mask = new IMask(element, maskOptions);
+const modalMask = new IMask(modalElement, maskOptions);

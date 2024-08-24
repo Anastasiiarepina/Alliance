@@ -237,6 +237,22 @@
       </div>
     </div>
 
+    <div class="thanks is-open">
+      <div class="thanks-dialog" id="thanks-dialog">
+        <img src="img/thanks.png" alt="Thanks" class="thanks-image">
+        <h2 class="thanks-title">cпасибо за заявку!</h2>
+        <a href="#" class="thanks-close" >
+          <svg width="24" height="24" class="close-svg">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="thanks-text">
+          Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button class="thanks-button button">Вернуться на главную</button>
+      </div>
+    </div>
+
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
