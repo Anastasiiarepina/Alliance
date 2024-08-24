@@ -25,7 +25,7 @@
               <div class="input-group">
                 <input 
                 type="tel" 
-                class="input" 
+                class="input phone-mask" 
                 id="user-phone"
                 name="userphone"
                 placeholder=""
@@ -207,7 +207,7 @@
             <div class="input-group modal-input-group">
               <input
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 id="modal-user-phone"
                 name="userphone"
                 placeholder=""
