@@ -177,10 +177,10 @@
       </div>
     </footer>
     <!-- /.footer -->
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog" id="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg width="24" height="24" class="close-svg">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -237,19 +237,19 @@
       </div>
     </div>
 
-    <div class="thanks">
-      <div class="thanks-dialog" id="thanks-dialog">
-        <img src="img/thanks.png" alt="Thanks" class="thanks-image">
-        <h2 class="thanks-title">cпасибо за заявку!</h2>
-        <a href="#" class="thanks-close" >
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog" id="modal-dialog">
+        <img src="img/alert.png" alt="alert" class="modal-image">
+        <h2 class="modal-title">cпасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg width="24" height="24" class="close-svg">
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
-        <p class="thanks-text">
+        <p class="modal-text">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button class="thanks-button button">Вернуться на главную</button>
+        <button class="modal-button button" data-toggle="modal" data-target="#alert-modal">Вернуться на главную</button>
       </div>
     </div>
 
