@@ -479,7 +479,7 @@ body {
   line-height: 160%;
   margin-top: -0.5rem;
   margin-bottom: 3.3125rem;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1504px;
 }
 .founder-link-small {
   display: none;
@@ -573,7 +573,7 @@ body {
   line-height: 160%;
   margin-top: 0;
   margin-bottom: 0.625rem;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1504px;
 }
 .blog-card-text {
   color: rgb(255, 255, 255);
@@ -581,7 +581,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   margin: 0;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1504px;
 }
 .blog-slider-footer {
   display: flex;
@@ -625,7 +625,7 @@ body {
   max-width: 40rem;
   margin-top: 1.25rem;
   margin-bottom: 3.125rem;
-  letter-spacing: 0.07px;
+  letter-spacing: 0.0704px;
 }
 .input-group-wrapper {
   display: flex;
@@ -715,7 +715,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-weight: 400;
   line-height: 160%;
   max-width: 23.6875rem;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1008px;
 }
 .footer-logo {
   width: 12.5rem;
@@ -922,19 +922,30 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 .second-header {
   margin-top: 5.875rem;
 }
-.second-header-wrapper {
+.second-header-grey {
   background-color: #f0f2f5;
+  height: 16.875rem;
+  width: 100%;
+}
+.second-header-image {
+  background-image: url(../img/second-page-image.jpeg);
+  height: 22.875rem;
+  width: 100%;
 }
 .second-header-content {
   padding: 3.125rem 0;
   position: relative;
 }
-.second-header-image {
-  display: none;
+.second-avtohim-on {
+  background: no-repeat center / contain url(../img/second-avto-him.png);
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 90%;
+  height: 15rem;
+  width: 30rem;
+}
+.second-avtohim-off {
+  display: none;
 }
 .second-separator {
   margin-bottom: 1.875rem;
@@ -1015,12 +1026,12 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   .mark-svg.ag {
     width: 6.25rem;
-    margin: 1rem 2.625rem 2.25rem 0.75rem;
+    margin: 1rem 2.625rem 2.25rem .75rem;
   }
   .mark-svg.alli {
     width: 6.375rem;
     height: 8.75rem;
-    margin: 0.75rem 3.25rem 2rem 1.375rem;
+    margin: .75rem 3.25rem 2rem 1.375rem;
   } */
   .founder-content {
     max-width: 30rem;
@@ -1194,12 +1205,12 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   /* .mark-svg.ag { */
   /* width: 6.25rem; */
-  /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
+  /* margin: 1rem 2.625rem 2.25rem .75rem; */
   /* } */
   /* .mark-svg.alli { */
   /* width: 6.375rem;
     height: 8.75rem; */
-  /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
+  /* margin: .75rem 3.25rem 2rem 1.375rem; */
   /* } */
   .clients-wrapper {
     flex-direction: column;
@@ -1240,13 +1251,13 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .mark-svg.ag {
     width: 77px;
     height: 67px;
-    /* margin: 1rem 2.625rem 2.25rem 0.75rem; */
+    /* margin: 1rem 2.625rem 2.25rem .75rem; */
   }
 
   .mark-svg.alli {
     width: 57px;
     height: 78px;
-    /* margin: 0.75rem 3.25rem 2rem 1.375rem; */
+    /* margin: .75rem 3.25rem 2rem 1.375rem; */
   }
   .mark-cards {
     flex-direction: column;
@@ -1356,7 +1367,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     font-size: 1.14rem;
     margin-bottom: 2.5rem;
     margin-top: 1rem;
-    letter-spacing: 0.325px;
+    letter-spacing: 0.3248px;
   }
   .header-button {
     font-size: 1.2rem;
@@ -1394,7 +1405,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .steps-title {
     margin-top: 1.4rem;
     margin-bottom: 0.4rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5008px;
   }
   .steps-text {
     font-size: 1.18rem;
@@ -1417,7 +1428,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     padding: 1.5rem 2.5rem;
   }
   .card-title {
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5008px;
   }
 
   .card-text {
@@ -1497,7 +1508,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     padding: 0.9rem 1.7rem;
   }
   .blog-card-title {
-    letter-spacing: -0.3px;
+    letter-spacing: -0.2992px;
   }
   .blog-slider-footer {
     margin-top: 1.8rem;

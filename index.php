@@ -370,38 +370,8 @@
       <!-- /.container -->
     </section>
     <!-- /.section production -->
-    <section class="section marks">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">
-          собственные <span class="section-title-toggle">торговые</span> марки
-        </h2>
-        <div class="mark-cards">
-          <a href="" class="mark-card">
-            <svg class="mark-svg ag">
-              <use href="img/sprite.svg#mark-ag"></use>
-            </svg>
-            <h3 class="mark-title">Автохимия AG-Tech</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-          <a href="" class="mark-card">
-            <svg class="mark-svg alli">
-              <use href="img/sprite.svg#mark-alliance"></use>
-            </svg>
-            <h3 class="mark-title">Автохимия AP</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-        </div>
-      </div>
-    </section>
+    
+    <?php $block_title="Собственные торговые марки"; include_once('template-parts/trademarks-block.php');?>
 
     <!-- /.section marks -->
     <section class="section founder">
