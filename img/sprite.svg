@@ -26,6 +26,14 @@
 	<rect id="arrow" rx="-0.500000" width="35.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
 	<path id="Vector" d="M10.16 4.68L10.86 5.39L4.41 11.84L33 11.84L32.99 12.84L4.42 12.84L10.86 19.29L10.16 20L3 12.84L2.99 12.84L2.99 12.83L2.5 12.34L10.16 4.68Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
 </symbol>
+<symbol id="arrow-prev-1_black" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="arrow" rx="-0.500000" width="35.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Vector" d="M10.16 4.68L10.86 5.39L4.41 11.84L33 11.84L32.99 12.84L4.42 12.84L10.86 19.29L10.16 20L3 12.84L2.99 12.84L2.99 12.83L2.5 12.34L10.16 4.68Z" fill="#292D33" fill-opacity="1.000000" fill-rule="evenodd"/>
+</symbol>
 <symbol viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="arrow-next-1">
 	<desc>
 			Created with Pixso.
@@ -33,6 +41,13 @@
 	<defs/>
 	<rect id="arrow" rx="-0.500000" width="35.000000" height="23.000000" transform="matrix(-1 5.34378e-24 5.34378e-24 1 36.5 0.5)" fill="#FFFFFF" fill-opacity="0"/>
 	<path id="Vector" d="M25.83 4.68L25.13 5.39L31.58 11.84L3 11.84L3 12.84L31.57 12.84L25.13 19.29L25.83 20L32.99 12.84L33 12.84L33 12.83L33.49 12.34L25.83 4.68Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+</symbol>
+<symbol id="arrow-next-1_black" viewBox="0 0 30.4953 15.3135" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Vector" d="M22.83 0L22.13 0.7L28.58 7.16L0 7.16L0 8.16L28.57 8.16L22.13 14.6L22.83 15.31L29.99 8.16L30 8.16L30 8.15L30.49 7.65L22.83 0Z" fill="#292D33" fill-opacity="1.000000" fill-rule="evenodd"/>
 </symbol>
 <symbol viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="arrow-prev-2">
 	<desc>

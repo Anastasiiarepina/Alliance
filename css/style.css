@@ -229,13 +229,13 @@ body {
   padding: 0;
   margin-top: 6.25rem;
   list-style: none;
-  color: #fff;
+  /* color: #fff; */
   position: relative;
   margin-bottom: 0;
 }
 .header-features-item {
   padding: 1.875rem 3.0625rem;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  /* border: 1px solid rgba(235, 235, 240, 0.2); */
   width: 18rem;
   min-height: 100%;
 }
@@ -256,7 +256,7 @@ body {
   line-height: 120%;
   margin-top: 1.625rem;
   margin-bottom: 2.125rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5008px;
 }
 
 .section {
@@ -373,7 +373,7 @@ body {
   line-height: 160%;
   margin-bottom: 22.125rem;
   font-weight: 400;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1008px;
 }
 .card-image {
   width: 100%;
@@ -965,6 +965,39 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 .header-crumbs-link-active {
   color: #292d33;
 }
+
+.expert-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+.expert-photo {
+  width: 30rem;
+  height: 30rem;
+}
+.expert-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.swiper1-dark .header-features-item {
+  color: #fff;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.swiper1-light .header-features-item {
+  color: #292d33;
+  border: 1px solid rgba(235, 235, 240, 1);
+}
+.swiper1-light .slider-button-prev,
+.swiper1-light .slider-button-next {
+  border: 1px solid rgba(235, 235, 240, 1);
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;

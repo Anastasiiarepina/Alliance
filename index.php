@@ -111,10 +111,10 @@
           <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
@@ -158,61 +158,11 @@
         </div>
         <!-- /.header-content -->
 
-        <div class="swiper swiper-1">
-          <!-- Additional required wrapper -->
-          <ul class="swiper-wrapper header-features">
-            <!-- Slides -->
-            <li class="swiper-slide header-features-item">
-              <svg class="time-svg" width="36" height="36">
-                <use href="img/sprite.svg#time"></use>
-              </svg>
-              <p class="header-features-text">Непрерывная работа c 2017 года</p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="sertificate-svg" width="36" height="36">
-                <use href="img/sprite.svg#sertificate"></use>
-              </svg>
-              <p class="header-features-text">Вся продукция сертифицирована</p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="control-svg" width="36" height="36">
-                <use href="img/sprite.svg#control"></use>
-              </svg>
-              <p class="header-features-text">
-                Контроль качества на всех этапах
-              </p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="delivery-svg" width="36" height="36">
-                <use href="img/sprite.svg#delivery"></use>
-              </svg>
-              <p class="header-features-text">
-                Возможны поставки по всей России
-              </p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="speed-svg" width="36" height="36">
-                <use href="img/sprite.svg#speed"></use>
-              </svg>
-              <p class="header-features-text">Оперативное производство</p>
-            </li>
-          </ul>
-
-          <!-- Navigation buttons -->
-          <div class="slider-buttons-1">
-            <div class="slider-button-prev">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-prev-1"></use>
-              </svg>
-            </div>
-            <div class="slider-button-next">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-next-1"></use>
-              </svg>
-            </div>
-          </div>
-          <!-- /.slider-buttons -->
-        </div>
+        <?php $light_mode="swiper1-dark";
+        $lightmode_prev="img/sprite.svg#arrow-prev-1";
+        $lightmode_next="img/sprite.svg#arrow-next-1";
+        include_once("template-parts/swiper1.php")?>
+        
       </div>
       <!-- /.container -->
     </header>
