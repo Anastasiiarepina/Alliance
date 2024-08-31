@@ -24,11 +24,11 @@
 <section class="section our-production">
     <div class="container">
         <div class="our-production-wrapper">
-            <img src="img/our-prod.png" alt="our-production" class="our-production-photo" />
-            <div class="our-production-content-wrapper">
-                <div class="our-production-content">
-                <div class="separator"></div>
-                <h2 class="section-title">Наше производство</h2>
+          <div class="our-production-content-wrapper">
+            <div class="our-production-content">
+              <div class="separator"></div>
+              <h2 class="section-title">Наше производство</h2>
+              <img src="img/our-prod.png" alt="our-production" class="our-production-photo" />
                 <p class="our-production-text">
                 Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
                 <br>
