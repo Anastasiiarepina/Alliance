@@ -486,6 +486,7 @@ body {
 }
 .clients {
   margin-bottom: 9.45rem;
+  margin-top: 9.375rem;
 }
 .clients-wrapper {
   display: flex;
@@ -537,10 +538,7 @@ body {
 .blog-swiper {
   margin-top: 3.35rem;
 }
-.blog-swiper_dark {
-  margin-top: 3.35rem;
-  margin-bottom: 9.375rem;
-}
+
 .blog-card {
   position: relative;
   display: flex;

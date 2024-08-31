@@ -3,7 +3,7 @@
     <div class="separator"></div>
     <h2 class="section-title">Исследовательский центр<br>Aliance production</h2>
     <!-- Slider main container -->
-    <div class="swiper blog-swiper_dark">
+    <div class="swiper blog-swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
