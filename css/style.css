@@ -1195,6 +1195,58 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   line-height: 160%;
   margin-bottom: 20px;
 }
+.general-autohim {
+  position: relative;
+  margin-bottom: 9.2rem;
+  background-color: #f0f2f5;
+}
+.general-autohim-photo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  object-fit: contain;
+}
+.general-autohim-content {
+  width: 50%;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+.general-autohim-content-wrapper {
+  display: flex;
+}
+.general-autohim-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -0.5rem;
+  margin-bottom: 3.3125rem;
+  letter-spacing: 0.1504px;
+}
+.general-autohim-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.general-autohim-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.general-download-button {
+  padding: 1.5625rem 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 3.125rem;
+}
 
 @media (max-width: 1700px) {
   html {
@@ -1304,6 +1356,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   .make-autohim-content {
     max-width: 40rem;
+  }
+  .general-autohim-photo {
+    height: 100%;
   }
   .type-autohim-list {
     columns: 3 auto;
@@ -1492,6 +1547,22 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .make-autohim-photo {
     margin-top: 3.125rem;
   }
+  .general-autohim {
+    margin-bottom: 6.25rem;
+  }
+  .general-autohim-photo {
+    position: relative;
+    width: 100%;
+  }
+  .general-autohim-content {
+    width: 100%;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+  }
+
+  .second-avtohim-on {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1646,6 +1717,12 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .footer-policy,
   .madein {
     margin: 0;
+  }
+  .general-download-button {
+    width: 100%;
+  }
+  .general-autohim-list {
+    columns: auto;
   }
 }
 @media (max-width: 440px) {

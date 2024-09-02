@@ -1,7 +1,7 @@
 <?php 
   $page_title='Автомобильная химия';
   $second_image='second-header-grey';
-  $is_autohim="second-avtohim-off";
+  $is_autohim="second-avtohim-on";
   include_once('header-page.php');?>
 <section class="section production-autohim">
     <div class="container">
