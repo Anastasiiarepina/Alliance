@@ -22,10 +22,10 @@
           <a href="./about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контрактное производство</a>
+          <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="./autohim.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -49,7 +49,7 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные марки</a>
+          <a href="./trademarks.php" class="mobile-menu-link">Собственные марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
@@ -166,161 +166,9 @@
       </div>
       <!-- /.container -->
     </header>
-    <section class="section section-light">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">схема работы</h2>
-
-        <div class="swiper steps-swiper">
-          <!-- Additional required wrapper -->
-
-          <ol class="swiper-wrapper steps">
-            <!-- Slides -->
-            <li class="swiper-slide steps-item">
-              <span class="steps-num">01</span>
-              <h3 class="steps-title">Знакомство</h3>
-              <p class="steps-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-              <a href="#" class="button-link">Оставить заявку</a>
-            </li>
-            <li class="swiper-slide steps-item">
-              <span class="steps-num">02</span>
-              <h3 class="steps-title">Заключение договора</h3>
-              <p class="steps-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </li>
-            <li class="swiper-slide steps-item">
-              <span class="steps-num">03</span>
-              <h3 class="steps-title">Производство</h3>
-              <p class="steps-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </li>
-            <li class="swiper-slide steps-item">
-              <span class="steps-num">04</span>
-              <h3 class="steps-title">Доставка</h3>
-              <p class="steps-text">
-                В частности, экономическая повестка сегодняшнего дня говорит о
-                возможностях приоритизации разума над эмоциями.
-              </p>
-            </li>
-          </ol>
-
-          <!-- Navigation buttons -->
-          <div class="steps-buttons primary-buttons-wrapper">
-            <div class="steps-button-prev primary-button-prev">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-prev-2"></use>
-              </svg>
-            </div>
-            <div class="steps-button-next primary-button-next">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-next-2"></use>
-              </svg>
-            </div>
-          </div>
-          <!-- /.second-slider-buttons -->
-        </div>
-      </div>
-    </section>
-    <section class="section production">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">контрактное производство</h2>
-        <div class="cards">
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Автомобильная химия</h3>
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-
-            <img
-              src="img/avto-him.png"
-              alt="Автомобильная химия"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Бытовая химия</h3>
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-
-            <img src="img/byt-him.png" alt="Бытовая химия" class="card-image" />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Дезинфицирующие средства</h3>
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-
-            <img
-              src="img/septa.png"
-              alt="Дезинфицирующие средства"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Пищевые аэрозоли</h3>
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-
-            <img
-              src="img/food-aero.png"
-              alt="Пищевые аэрозоли"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Косметическая продукция</h3>
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-
-            <img
-              src="img/cosmetic.png"
-              alt="Косметическая продукция"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Краски аэрозольные</h3>
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <img
-              src="img/paints.png"
-              alt="Краски аэрозольные"
-              class="card-image"
-            />
-          </a>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.section production -->
+    <?php include_once("template-parts/swiper2.php")?>
     
+    <?php $block_title="контрактное производство"; include_once('template-parts/production-block.php');?>  
     <?php $block_title="Собственные торговые марки"; include_once('template-parts/trademarks-block.php');?>
 
     

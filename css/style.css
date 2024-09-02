@@ -1069,6 +1069,133 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   line-height: 160%;
   margin-bottom: 20px;
 }
+.ceo-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.ceo-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.ceo-read-link {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  text-decoration: none;
+}
+.read-text {
+  color: rgb(92, 142, 230);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+}
+.production-autohim {
+  margin-top: 6.25rem;
+  margin-bottom: 9.375rem;
+}
+.production-autohim-wrapper {
+  display: flex;
+  position: relative;
+  min-height: 46.875rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+.production-autohim-photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 41%;
+  object-fit: contain;
+}
+.production-autohim-content-wrapper {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.production-autohim-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.make-autohim {
+  position: relative;
+  min-height: 41.25rem;
+  margin-bottom: 9.2rem;
+}
+.make-autohim-photo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 44%;
+  height: 100%;
+  object-fit: cover;
+}
+.make-autohim-content {
+  max-width: 45rem;
+  margin-top: 3rem;
+}
+.make-autohim-content-wrapper {
+  display: flex;
+}
+.make-autohim-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -0.5rem;
+  margin-bottom: 3.3125rem;
+  letter-spacing: 0.1504px;
+}
+.make-autohim-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.make-autohim-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.type-autohim {
+  margin-bottom: 9.375rem;
+}
+.type-autohim-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -0.5rem;
+  margin-bottom: 3.3125rem;
+  letter-spacing: 0.1504px;
+  width: 62%;
+}
+.type-autohim-list {
+  list-style: none;
+  padding: 0;
+  columns: 4 auto;
+}
+.type-autohim-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -1174,6 +1301,12 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .footer-social {
     gap: 1rem;
     margin-left: 1%;
+  }
+  .make-autohim-content {
+    max-width: 40rem;
+  }
+  .type-autohim-list {
+    columns: 3 auto;
   }
 }
 @media (max-width: 992px) {
@@ -1336,6 +1469,29 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .footer-menu-column-2 {
     min-width: 23rem;
   }
+  .production-autohim {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+  }
+  .production-autohim-content-wrapper {
+    width: 100%;
+  }
+  .production-autohim-photo {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1.875rem;
+  }
+  .make-autohim-photo {
+    position: relative;
+    width: 100%;
+  }
+  .make-autohim-content {
+    max-width: 100%;
+  }
+  .make-autohim-photo {
+    margin-top: 3.125rem;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1414,6 +1570,17 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .our-production-photo {
     position: relative;
     height: auto;
+    width: 100%;
+  }
+  .type-autohim {
+    margin-bottom: 5rem;
+  }
+  .type-autohim-list {
+    list-style: none;
+    padding: 0;
+    columns: 1 auto;
+  }
+  .type-autohim-text {
     width: 100%;
   }
 }
@@ -1740,6 +1907,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     margin-bottom: 6.25rem;
   }
   .our-production-list {
+    columns: auto;
+  }
+  .make-autohim-list {
     columns: auto;
   }
 }
