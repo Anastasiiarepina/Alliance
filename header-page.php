@@ -143,7 +143,7 @@
         <div class="container">
           <div class="second-header-content">
             <div class="separator second-separator"></div>
-            <h1 class="header-title"><?= $page_title; ?></h1>
+            <h1 class="header-title second-header-title"><?= $page_title; ?></h1>
             <div class="header-crumbs-wrapper">
               <a href="/index.php" class="header-crumbs-link">Главная</a>
               <span class="header-crumbs-separator">—</span>

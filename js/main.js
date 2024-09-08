@@ -110,6 +110,33 @@ const BlogSteps = new Swiper(".blog-swiper", {
     },
   },
 });
+const BlogPageSteps = new Swiper(".blog-page-swiper", {
+  speed: 400,
+  slidesPerView: 1,
+  grid: {
+    rows: 10,
+    fill: "row",
+  },
+  spaceBetween: 10,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
+  breakpoints: {
+    // when window width is >= 768px
+    1200: {
+      spaceBetween: 30,
+      slidesPerView: 2,
+      grid: {
+        rows: 5,
+      },
+    },
+  },
+});
 
 let currentModal; // Текущее модальное окно
 let modalDialog; // Белое модальное окно
