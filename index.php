@@ -181,4 +181,6 @@
       $section_title='Блог экспертов в области производства';
       $button_link='button-link';
       include_once('template-parts/swiper4.php');?>    
-    <?php include_once('footer.php');?>
+    <?php 
+      $is_cta='cta';
+      include_once('footer.php');?>

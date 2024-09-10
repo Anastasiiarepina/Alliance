@@ -74,4 +74,6 @@
 <?php include_once('template-parts/swiper3.php');?>
 <?php include_once('template-parts/swiper2.php');?>
 <?php include_once('template-parts/clients-block.php');?>
-<?php include_once('footer.php');?>
+<?php 
+  $is_cta='cta';
+  include_once('footer.php');?>

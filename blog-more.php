@@ -93,4 +93,6 @@ include_once('header-page.php');?>
       $section_title='Так же вас может заинтересовать:';
       $button_link='button-link off';
       include_once('template-parts/swiper4.php');?>
-<?php include_once('footer.php');?>
+<?php 
+  $is_cta='cta';
+  include_once('footer.php');?>

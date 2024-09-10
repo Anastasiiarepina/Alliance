@@ -106,4 +106,6 @@ include_once('header-page.php');?>
         
     </div>
 </section>
-<?php include_once('footer.php');?>
+<?php 
+  $is_cta='cta';
+  include_once('footer.php');?>

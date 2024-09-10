@@ -9,4 +9,6 @@ include_once('template-parts/contacts-block.php');?>
 <div class="container">
     <div class="contacts-map"></div>
 </div>
-<?php include_once('footer.php');?>
+<?php 
+  $is_cta='cta';
+  include_once('footer.php');?>
