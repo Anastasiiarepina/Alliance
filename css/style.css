@@ -721,6 +721,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-size: 0.8rem;
   display: inline-block;
 }
+.footer {
+  border-top: 1px solid #ebebf0;
+}
 .cta-form-footer {
   gap: 1.875rem;
   display: flex;
@@ -970,6 +973,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   background-repeat: no-repeat;
   /* height: 22.875rem; */
   width: 100%;
+}
+.second-header-none {
+  display: none;
 }
 .second-header-content {
   padding: 3.125rem 0;
@@ -1397,6 +1403,44 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
+}
+.error-wrapper {
+  margin: 9.375rem auto;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+  margin-top: 5.875rem;
+}
+.error-big-text {
+  color: rgb(92, 142, 230);
+  font-family: "Bebas Neue Book";
+  font-size: 18.75rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+.error-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+}
+.error-text {
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+.error-button {
+  display: block;
+  padding: 1.5625rem 3.75rem;
+  text-align: center;
 }
 
 @media (max-width: 1700px) {
@@ -2162,5 +2206,18 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   .make-autohim-list {
     columns: auto;
+  }
+  .error-wrapper {
+    margin: 6.25rem auto;
+    max-width: 100%;
+  }
+  .error-big-text {
+    font-size: 12.5rem;
+  }
+  .error-text {
+    margin-bottom: 3.125rem;
+  }
+  .error-button {
+    width: 100%;
   }
 }
