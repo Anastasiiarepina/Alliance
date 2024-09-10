@@ -11,7 +11,7 @@
         <p class="error-text">
           Мы не смогли найти страницу с таким адресом, попробуйте перейти на главную или напишите нам.
         </p>
-        <a class="error-button button">Вернуться на главную</a>
+        <a href="./index.php" class="error-button button">Вернуться на главную</a>
       </div>
     </div>
 </section>

@@ -1441,6 +1441,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: block;
   padding: 1.5625rem 3.75rem;
   text-align: center;
+  text-decoration: none;
 }
 
 @media (max-width: 1700px) {
