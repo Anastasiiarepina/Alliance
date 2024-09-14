@@ -1,6 +1,10 @@
 <section class="<?= $is_cta; ?>">
       <div class="bg-grey section-cta">
-        <img src="img/cta.png" alt="call to action" class="cta-image" />
+        <picture>
+          <source type="image/webp" srcset="img/cta.webp">
+          <source type="image/jpeg" srcset="img/cta.png">
+          <img src="img/cta.png" alt="call to action" class="cta-image">
+        </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="form cta-form">
             <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
@@ -202,7 +206,11 @@
 
     <div class="modal" id="alert-modal">
       <div class="modal-dialog" id="modal-dialog">
-        <img src="img/alert.png" alt="alert" class="modal-image">
+        <picture>
+          <source type="image/webp" srcset="img/alert.webp">
+          <source type="image/jpeg" srcset="img/alert.png">
+          <img src="img/alert.png" alt="alert" class="modal-image">
+        </picture>
         <h2 class="modal-title">cпасибо за заявку!</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg width="24" height="24" class="close-svg">

@@ -10,7 +10,11 @@
       <div class="production-autohim-wrapper">
         <div class="production-autohim-content-wrapper">
           <div class="production-autohim-content">
-            <img src="img/ag-autohim.png" alt="production-autohim" class="production-autohim-photo" />
+            <picture>
+              <source type="image/webp" srcset="img/ag-autohim.webp">
+              <source type="image/jpeg" srcset="img/ag-autohim.png">
+              <img src="img/ag-autohim.png" alt="production-autohim" class="production-autohim-photo">
+            </picture>
             <div class="separator"></div>
             <h2 class="section-title">Собственное производство<br>автохимия AG-Tech</h2>
             <p class="production-autohim-text">
@@ -71,7 +75,11 @@
       </div>
     </div>
   </div>
-  <img src="img/general-autohim.png" alt="general-autohim" class="general-autohim-photo" />
+  <picture>
+    <source type="image/webp" srcset="img/general-autohim.webp">
+    <source type="image/jpeg" srcset="img/general-autohim.png">
+    <img src="img/general-autohim.png" alt="general-autohim" class="general-autohim-photo">
+  </picture>
 </section>
 <?php include_once('template-parts/swiper3.php');?>
 <?php include_once('template-parts/swiper2.php');?>

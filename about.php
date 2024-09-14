@@ -6,7 +6,11 @@
 <section class="section expert">
     <div class="container">
         <div class="expert-content-wrapper">
-            <img src="img/expert.png" alt="expert" class="expert-photo" />
+            <picture>
+              <source type="image/webp" srcset="img/expert.webp">
+              <source type="image/jpeg" srcset="img/expert.png">
+              <img src="img/expert.png" alt="expert" class="expert-photo">
+            </picture>
             <div class="expert-content">
                 <div class="separator"></div>
                 <h2 class="section-title">мы - эксперты в области<br />производства химии</h2>
@@ -28,7 +32,11 @@
             <div class="our-production-content">
               <div class="separator"></div>
               <h2 class="section-title">Наше производство</h2>
-              <img src="img/our-prod.png" alt="our-production" class="our-production-photo" />
+              <picture>
+                <source type="image/webp" srcset="img/our-prod.webp">
+                <source type="image/jpeg" srcset="img/our-prod.png">
+                <img src="img/our-prod.png" alt="our-production" class="our-production-photo">
+              </picture>
               <p class="our-production-text">
               Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
               <br>

@@ -15,12 +15,11 @@
                 оценить значение форм воздействия.
               </p>
             </div>
-
-            <img
-              src="img/avto-him.png"
-              alt="Автомобильная химия"
-              class="card-image"
-            />
+            <picture>
+              <source type="image/webp" srcset="img/avto-him.webp">
+              <source type="image/jpeg" srcset="img/avto-him.png">
+              <img src="img/avto-him.png" alt="Автомобильная химия" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -30,8 +29,11 @@
                 нанотехнологии функционально разнесены на независимые элементы.
               </p>
             </div>
-
-            <img src="img/byt-him.png" alt="Бытовая химия" class="card-image" />
+            <picture>
+              <source type="image/webp" srcset="img/byt-him.webp">
+              <source type="image/jpeg" srcset="img/byt-him.png">
+              <img src="img/byt-him.png" alt="Бытовая химия" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -40,12 +42,11 @@
                 Лишь интерактивные прототипы призваны к ответу.
               </p>
             </div>
-
-            <img
-              src="img/septa.png"
-              alt="Дезинфицирующие средства"
-              class="card-image"
-            />
+            <picture>
+              <source type="image/webp" srcset="img/septa.webp">
+              <source type="image/jpeg" srcset="img/septa.png">
+              <img src="img/septa.png" alt="Дезинфицирующие средства" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -55,12 +56,11 @@
                 оценить значение форм воздействия.
               </p>
             </div>
-
-            <img
-              src="img/food-aero.png"
-              alt="Пищевые аэрозоли"
-              class="card-image"
-            />
+            <picture>
+              <source type="image/webp" srcset="img/food-aero.webp">
+              <source type="image/jpeg" srcset="img/food-aero.png">
+              <img src="img/food-aero.png" alt="Пищевые аэрозоли" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -69,12 +69,11 @@
                 Лишь интерактивные прототипы призваны к ответу.
               </p>
             </div>
-
-            <img
-              src="img/cosmetic.png"
-              alt="Косметическая продукция"
-              class="card-image"
-            />
+            <picture>
+              <source type="image/webp" srcset="img/cosmetic.webp">
+              <source type="image/jpeg" srcset="img/cosmetic.png">
+              <img src="img/cosmetic.png" alt="Косметическая продукция" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -84,11 +83,11 @@
                 нанотехнологии функционально разнесены на независимые элементы.
               </p>
             </div>
-            <img
-              src="img/paints.png"
-              alt="Краски аэрозольные"
-              class="card-image"
-            />
+            <picture>
+              <source type="image/webp" srcset="img/paints.webp">
+              <source type="image/jpeg" srcset="img/paints.png">
+              <img src="img/paints.png" alt="Краски аэрозольные" class="card-image">
+            </picture>
           </a>
         </div>
       </div>

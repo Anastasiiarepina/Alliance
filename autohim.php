@@ -10,7 +10,11 @@
       <div class="production-autohim-wrapper">
         <div class="production-autohim-content-wrapper">
           <div class="production-autohim-content">
-            <img src="img/prod-autohim.png" alt="production-autohim" class="production-autohim-photo" />
+            <picture>
+              <source type="image/webp" srcset="img/prod-autohim.webp">
+              <source type="image/jpeg" srcset="img/prod-autohim.png">
+              <img src="img/prod-autohim.png" alt="production-autohim" class="production-autohim-photo">
+            </picture>
             <div class="separator"></div>
             <h2 class="section-title">Контрактное производство<br>автомобильной химии</h2>
             <p class="production-autohim-text">
@@ -89,7 +93,11 @@
       </div>
     </div>
   </div>
-  <img src="img/make-autohim.png" alt="make-autohim" class="make-autohim-photo" />
+  <picture>
+    <source type="image/webp" srcset="img/make-autohim.webp">
+    <source type="image/jpeg" srcset="img/make-autohim.png">
+    <img src="img/make-autohim.png" alt="make-autohim" class="make-autohim-photo">
+  </picture>
 </section>
 <section class="section type-autohim">
   <div class="container">
