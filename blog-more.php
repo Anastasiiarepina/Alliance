@@ -2,6 +2,8 @@
 $page_title='Современная методология разработки одухотворила всех причастных';
 $second_image='second-header-image';
 $is_autohim="second-avtohim-off";
+$header_crumb_add="Блог";
+$header_crumb_add_link="/blog.php";
 include_once('header-page.php');?>
 <section class="section blog-page">
     <div class="container">

@@ -8,7 +8,7 @@
     ?>
     
     <div class="mark-cards">
-      <a href="" class="mark-card">
+      <a href="../ag-autohim.php" class="mark-card">
         <svg class="mark-svg ag">
           <use href="img/sprite.svg#mark-ag"></use>
         </svg>
@@ -19,7 +19,7 @@
           обществом задач.
         </p>
       </a>
-      <a href="" class="mark-card">
+      <a href="#" class="mark-card">
         <svg class="mark-svg alli">
           <use href="img/sprite.svg#mark-alliance"></use>
         </svg>

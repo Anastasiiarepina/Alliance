@@ -1,4 +1,4 @@
-<a href="#" class="blog-card">
+<a href="../blog-more.php" class="blog-card">
   <img
     src="img/blog-image1.png"
     alt="Blog-image1"

@@ -2,6 +2,8 @@
   $page_title='Автомобильная химия';
   $second_image='second-header-grey';
   $is_autohim="second-avtohim-on";
+  $header_crumb_add="Контрактное производство";
+  $header_crumb_add_link="/contracts.php";
   include_once('header-page.php');?>
 <section class="section production-autohim">
     <div class="container">

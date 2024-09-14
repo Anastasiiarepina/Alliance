@@ -2,6 +2,8 @@
   $page_title='Автохимия AG-Tech';
   $second_image='second-header-grey';
   $is_autohim="second-avtohim-on";
+  $header_crumb_add="Собственные торговые марки";
+  $header_crumb_add_link="/trademarks.php";
   include_once('header-page.php');?>
 <section class="section production-autohim">
     <div class="container">

@@ -999,6 +999,11 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: flex;
   gap: 0.625rem;
 }
+.header-crumb-wrapper {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+}
 .header-crumbs-link {
   text-decoration: none;
   color: rgb(130, 138, 153);
