@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
@@ -59,11 +62,22 @@ body {
   padding-top: 5.875rem;
 }
 .header-image {
-  background: linear-gradient(rgba(41, 45, 51, 0.75), rgba(41, 45, 51, 0.75)),
+  /* background: linear-gradient(rgba(41, 45, 51, 0.75), rgba(41, 45, 51, 0.75)),
     url(../img/main_img.png);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  position: relative;
+}
+.main-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
 }
 /* .header-image::before {
   content: "";
@@ -966,9 +980,13 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   /* height: 16.875rem; */
   width: 100%;
 }
-.second-header-image {
+.no-webp .second-header-image {
   background: linear-gradient(rgba(41, 45, 51, 0.6), rgba(41, 45, 51, 0.6)),
     url("../img/second-page-image.jpeg");
+}
+.second-header-image {
+  background: linear-gradient(rgba(41, 45, 51, 0.6), rgba(41, 45, 51, 0.6)),
+    url("../img/second-page-image.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -982,8 +1000,14 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   padding: 3.125rem 0;
   position: relative;
 }
+.no-webp .second-avtohim-on {
+  background: url(../img/second-avto-him.png);
+}
 .second-avtohim-on {
-  background: no-repeat center / contain url(../img/second-avto-him.png);
+  background: url(../img/second-avto-him.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1394,8 +1418,15 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: flex;
   justify-content: space-between;
 }
+
+.no-webp .contacts-map {
+  background: url(../img/map.png);
+}
 .contacts-map {
-  background: no-repeat right / cover url(../img/map.png);
+  background: url(../img/map.webp);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 600px;
   margin-top: 3.125rem;
@@ -1944,8 +1975,14 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .general-autohim-list {
     columns: auto;
   }
+  .no-webp .contacts-map {
+    background: url(../img/map-small.png);
+  }
   .contacts-map {
-    background: no-repeat center / cover url(../img/map-small.png);
+    background: url(../img/map-small.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     margin-top: 0;
   }
