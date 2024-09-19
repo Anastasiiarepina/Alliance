@@ -125,7 +125,7 @@
           >+7 (499) 686-10-14
         </a>
       </div>
-      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal" aria-label="Phone">
         <svg class="button-icon" width="16" height="16">
           <use href="img/sprite.svg#header-phone"></use>
         </svg>
