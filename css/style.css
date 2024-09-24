@@ -270,7 +270,7 @@ body {
   font-size: 3.75rem;
   line-height: 120%;
   margin-top: 1.625rem;
-  margin-bottom: 2.125rem;
+  margin-bottom: 1.625rem;
   letter-spacing: 0.5008px;
 }
 
@@ -322,6 +322,7 @@ body {
   line-height: 160%;
   margin-top: 2.25rem;
   margin-bottom: 0.625rem;
+  padding-right: 2rem;
 }
 .steps-text {
   color: rgb(130, 138, 153);
@@ -360,7 +361,7 @@ body {
   margin-top: 3.25rem;
 }
 .card {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   border: 1px solid #ebebf0;
   position: relative;
   text-decoration: none;
@@ -373,7 +374,7 @@ body {
   border-color: #5c8ee6;
 }
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 2.8rem 1rem 2.5rem 3rem;
 }
 .card-title {
   color: rgb(41, 45, 51);
@@ -390,6 +391,8 @@ body {
   font-size: 1rem;
   line-height: 160%;
   margin-bottom: 22.125rem;
+  margin-top: 0.8rem;
+  margin-right: 4.8rem;
   font-weight: 400;
   letter-spacing: 0.1008px;
 }
@@ -417,7 +420,7 @@ body {
   grid-column-gap: 3.125rem;
   flex-basis: 50%;
   text-decoration: none;
-  padding: 3.5rem 4rem;
+  padding: 3.4rem 4rem;
   border: 1px solid #ebebf0;
   transition: border 0.2s;
   /* position: relative; */
@@ -441,11 +444,14 @@ body {
 .mark-svg.ag {
   width: 8.75rem;
   height: 7.5rem;
+  align-self: center;
   /* margin: 1.875rem 4.375rem 1.875rem 1.25rem; */
 }
 .mark-svg.alli {
   width: 6.375rem;
   height: 8.75rem;
+  align-self: center;
+  justify-self: center;
   /* margin: 1.25rem 5.625rem 1.25rem 2.5rem; */
 }
 .mark-title {
@@ -466,19 +472,19 @@ body {
   display: flex;
   margin: 0;
   font-weight: 400;
-  letter-spacing: 0.08px;
+  letter-spacing: 0.2px;
   margin-bottom: 1rem;
 }
 .founder {
   position: relative;
   min-height: 41.25rem;
-  margin-bottom: 9.2rem;
+  margin-bottom: 9.4rem;
 }
 .founder-photo {
   position: absolute;
   left: 0;
   top: 0;
-  width: 44%;
+  width: 43.7%;
   height: 100%;
   object-fit: cover;
 }
@@ -495,8 +501,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin-top: -0.5rem;
-  margin-bottom: 3.3125rem;
+  margin-bottom: 1.75rem;
   letter-spacing: 0.1504px;
 }
 .founder-link-small {
@@ -536,12 +541,12 @@ body {
   margin-top: 2rem;
 }
 .clients-logo-item {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   border: 1px solid #ebebf0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.75rem 1.3rem;
+  padding: 2.65rem 1.3rem;
 }
 .clients-logo {
   max-width: 100%;
@@ -554,23 +559,27 @@ body {
   filter: saturate(1);
 }
 .blog-swiper {
-  margin-top: 3.35rem;
+  /* margin-top: 3.35rem; */
+  min-height: 46rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .blog-card {
   position: relative;
   display: flex;
-  min-height: 25rem;
+  min-height: 100%;
   flex-direction: column;
   text-decoration: none;
   color: #fff;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 3.125rem;
 }
 .blog-card_dark {
   position: relative;
   display: flex;
-  min-height: 100%;
+  min-height: 41rem;
   flex-direction: column;
   text-decoration: none;
   color: #fff;
@@ -623,14 +632,16 @@ body {
   color: rgb(130, 138, 153);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 164%;
   margin: 0;
-  letter-spacing: 0.1504px;
+  margin-bottom: auto;
+  letter-spacing: 0.15px;
+  padding-right: 4rem;
 }
 .blog-slider-footer {
   display: flex;
   align-items: center;
-  margin-top: 1.875rem;
+  margin-top: 2rem;
 }
 
 .bg-grey {
@@ -643,7 +654,7 @@ body {
   position: relative;
   padding-top: 4.25rem;
   margin-top: 14rem;
-  padding-bottom: 6.25rem;
+  padding-bottom: 6.1rem;
 }
 .cta-image {
   position: absolute;
@@ -701,8 +712,8 @@ body {
 .input-group-label {
   position: absolute;
   cursor: text;
-  top: 1.3rem;
-  left: 2rem;
+  top: 1.2rem;
+  left: 1.9rem;
   color: rgb(130, 138, 153);
   font-size: 16px;
   font-weight: 400;
@@ -748,7 +759,8 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 }
 .cta-form-button {
   flex-shrink: 0;
-  padding: 1.18rem 2.8rem;
+  padding: 1.1rem 3.125rem;
+  letter-spacing: -0.7px;
 }
 .notify {
   display: flex;
@@ -819,7 +831,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   opacity: 0.5;
 }
 .footer-bottom {
-  padding-top: 2.6rem;
+  padding-top: 2.65rem;
   padding-bottom: 1.8rem;
   display: flex;
 }
@@ -829,7 +841,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-weight: 600;
   line-height: 160%;
   margin-top: 0;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
 }
 .footer-menu-list {
   margin: 0;
@@ -854,7 +866,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
 }
 .footer-menu-item:hover > :not(.footer-menu-link-bold) {
   color: #5c8ee6;
@@ -1018,7 +1030,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: none;
 }
 .second-separator {
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
 }
 .header-crumbs-wrapper {
   display: flex;
@@ -1049,6 +1061,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   gap: 7.5rem;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
+  margin-bottom: -6.4rem;
 }
 .expert-photo {
   width: 30rem;
@@ -1059,6 +1072,10 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
+  letter-spacing: 0.15px;
+}
+.expert-content {
+  margin-top: 1rem;
 }
 
 .swiper1-dark .header-features-item {
@@ -1081,26 +1098,28 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 .our-production-wrapper {
   display: flex;
   position: relative;
-  min-height: 40.625rem;
+  min-height: 46.8rem;
 }
 .our-production-photo {
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
-  width: 41%;
+  width: 41.6%;
   object-fit: cover;
 }
 .our-production-content-wrapper {
   display: flex;
-  width: 55%;
+  width: 49%;
   flex-direction: column;
+  padding-top: 3rem;
 }
 .our-production-text {
   color: rgb(130, 138, 153);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 158%;
+  letter-spacing: 0.15px;
 }
 .our-production-list {
   list-style: none;
@@ -1322,6 +1341,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 }
 .second-header-title {
   max-width: 75rem;
+  margin-bottom: 1.5rem;
 }
 .second-header-image .second-header-title,
 .second-header-image .header-crumbs-wrapper,
