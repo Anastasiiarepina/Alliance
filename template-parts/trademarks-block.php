@@ -7,7 +7,7 @@
     }
     ?>
     
-    <div class="mark-cards">
+    <div class="<?= $mark_cards; ?>">
       <a href="../ag-autohim.php" class="mark-card">
         <svg class="mark-svg ag">
           <use href="img/sprite.svg#mark-ag"></use>

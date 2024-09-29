@@ -2,6 +2,8 @@
 $page_title='Контрактное производство';
 $second_image='second-header-grey';
 $is_autohim="second-avtohim-off";
+$cards_style="cards";
+$production_style="production";
 include_once('header-page.php');
 include_once('template-parts/production-block.php');?>  
 <div class="container">

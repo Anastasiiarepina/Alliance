@@ -168,7 +168,12 @@
     </header>
     <?php include_once("template-parts/swiper2.php")?>
     
-    <?php $block_title="контрактное производство"; include_once('template-parts/production-block.php');?>  
+    <?php 
+    $block_title="контрактное производство"; 
+    $cards_style="cards cards-main";
+    $production_style="production-main";
+    $mark_cards="mark-cards mark-cards-main";
+    include_once('template-parts/production-block.php');?>  
     <?php $block_title="Собственные торговые марки"; include_once('template-parts/trademarks-block.php');?>
 
     

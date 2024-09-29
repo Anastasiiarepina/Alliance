@@ -1,4 +1,4 @@
-<section class="section production">
+<section class="section <?= $production_style; ?>">
       <div class="container">
         <?php 
         if(!empty($block_title)) {
@@ -6,7 +6,7 @@
           echo '<h2 class="section-title">'. $block_title .'</h2>';
         }
         ?>
-        <div class="cards">
+        <div class="<?= $cards_style; ?>">
           <a href="../autohim.php" class="card">
             <div class="card-content">
               <h3 class="card-title">Автомобильная химия</h3>

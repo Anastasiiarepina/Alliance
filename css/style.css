@@ -287,11 +287,16 @@ body {
 .production {
   margin-bottom: 6.2rem;
 }
+.production-main {
+  margin-bottom: 9.2rem;
+}
+
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
   margin-bottom: 1.6rem;
+  margin-top: 1.5rem;
 
   /* gap: 1.875rem; */
 }
@@ -360,6 +365,9 @@ body {
   flex-wrap: wrap;
   margin-top: 6.25rem;
 }
+.cards-main {
+  margin-top: 3.25rem;
+}
 .card {
   flex-basis: 33.3%;
   border: 1px solid #ebebf0;
@@ -408,8 +416,12 @@ body {
 }
 .mark-cards {
   display: flex;
+  margin-top: 6.375rem;
+}
+.mark-cards-main {
   margin-top: 3.375rem;
 }
+
 .mark-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -560,10 +572,11 @@ body {
 }
 .blog-swiper {
   /* margin-top: 3.35rem; */
-  min-height: 46rem;
+  /* min-height: 32rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 1.7rem;
 }
 
 .blog-card {
@@ -573,8 +586,9 @@ body {
   flex-direction: column;
   text-decoration: none;
   color: #fff;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 3.125rem;
+  height: 25rem;
 }
 .blog-card_dark {
   position: relative;
@@ -1849,9 +1863,10 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   .mark-cards {
     flex-direction: column;
-    margin-top: 3.1rem;
+    margin-top: 3.2rem;
     /* flex-wrap: wrap; */
   }
+
   .mark-card {
     grid-template-columns: auto 1fr 1fr;
     grid-template-rows: auto 2fr;
