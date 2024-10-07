@@ -16,22 +16,10 @@ include_once('header-page.php');?>
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
@@ -40,22 +28,10 @@ include_once('header-page.php');?>
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
@@ -64,22 +40,10 @@ include_once('header-page.php');?>
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card1-block.php');?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
@@ -88,10 +52,46 @@ include_once('header-page.php');?>
                     <?php include('template-parts/swiper-card2-block.php');?>
                 </div>
                 <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
+                </div>
+                <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card2-block.php');?>
+                </div>
+                <div class="swiper-slide">
+                    <?php include('template-parts/swiper-card1-block.php');?>
                 </div>
                 <div class="swiper-slide">
                     <?php include('template-parts/swiper-card1-block.php');?>

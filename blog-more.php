@@ -5,7 +5,7 @@ $is_autohim="second-avtohim-off";
 $header_crumb_add="Блог";
 $header_crumb_add_link="/blog.php";
 include_once('header-page.php');?>
-<section class="section blog-page">
+<section class="section blog-more-page">
     <div class="container">
         <section class="section realization">
             <div class="realization-wrapper">

@@ -42,49 +42,49 @@
         </p>
         <ul class="make-autohim-list">
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim1"></use>
           </svg>  
           Полное описание товаров
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim2"></use>
           </svg>
           Актуальные цены
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim3"></use>
           </svg>
           Полное описание товаров
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim4"></use>
           </svg>
             Актуальные цены
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim5"></use>
           </svg>
             Лаки и краски
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim6"></use>
           </svg>
             Химические производства
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim7"></use>
           </svg>
             Лаки и краски
           </li>
           <li class="make-autohim-list-item">
-          <svg width="36" height="24">
+          <svg width="24" height="24">
             <use href="img/sprite.svg#make-autohim8"></use>
           </svg>
             Химические производства
@@ -109,140 +109,140 @@
         </p>
         <ul class="type-autohim-list">
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Антискотч
           </li>
         
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Многоцелевая смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Жидкий ключ
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Высокотемпературная смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Универсальный очиститель деталей
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Силиконовая смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Цепная смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Медная смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Графитовая смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель кондиционера пенный
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель тормозных дисков
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель битумных пятен
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель кондционера
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель дросельной заслонки
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель обивки 
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Тефлоновая смазка
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Очиститель двигателя
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Универсальный очиститель
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Чернитель шин 
           </li>
           
           <li class="type-autohim-list-item">
-          <svg width="14" height="2">
+          <svg width="14" height="28">
             <use href="img/sprite.svg#type-autohim"></use>
           </svg>  
           Чернитель шин + очистка
