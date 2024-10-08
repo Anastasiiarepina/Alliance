@@ -1602,7 +1602,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     padding: 2.2rem 2.4rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
-  .navbar-light .mobile-menu-toggle {
+  .mobile-menu-toggle.big-padding {
     padding: 1.6rem 2.2rem;
   }
   .mobile-menu-line {
@@ -1706,7 +1706,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     transform: rotate(45deg) translateY(10px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px);
+    transform: rotate(-45deg) translateY(-12px);
   }
   .navbar-button .button-text {
     display: none;

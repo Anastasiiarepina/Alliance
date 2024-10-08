@@ -32,7 +32,13 @@ const closeMenu = (event) => {
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.876rem");
+  if (this.scrollY > 1) {
+    changeNavHeight("4.5rem");
+    mMenuToggle.classList.add("big-padding");
+  } else {
+    changeNavHeight("5.876rem");
+    mMenuToggle.classList.remove("big-padding");
+  }
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }
